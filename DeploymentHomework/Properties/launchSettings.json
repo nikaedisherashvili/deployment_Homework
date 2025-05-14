@@ -1,0 +1,30 @@
+﻿{
+    "$schema": "http://json.schemastore.org/launchsettings.json",
+
+    "profiles": {
+        "AnswerServiceMinimal": { // ← name is arbitrary
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "launchUrl": "answer", // open http://localhost:5148/answer
+            "applicationUrl": "http://localhost:5148",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+
+        /*  ── optional ────────────────────────────────────────────────
+        If you still want the IIS-Express button in VS, keep the
+        block below. Otherwise you can delete it.
+    ,
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "answer",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+    ──────────────────────────────────────────────────────────── */
+    }
+}
